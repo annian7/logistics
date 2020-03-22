@@ -16,7 +16,6 @@ public class ICustomerService implements CustomerService {
     @Override
     public Customer getCustomerById(String id) {
         Customer customer = this.customerDao.getCustomerById(id);
-        log.info("返回"+customer);
         return customer;
     }
 }

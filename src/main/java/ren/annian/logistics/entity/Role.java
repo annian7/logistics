@@ -14,7 +14,6 @@ public class Role {
     private String tel;
     private String password;
     private Integer power;
-    @Autowired
-    private Address address;
+    private String address;
 
     }
