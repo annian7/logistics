@@ -24,5 +24,8 @@ class LogisticsApplicationTests {
         System.out.println(connection);
         connection.close();
     }
-
+    @Test
+    void serviceTest(){
+        System.out.println(service.getCustomerById("0101"));
+    }
 }
